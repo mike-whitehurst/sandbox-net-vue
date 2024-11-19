@@ -65,21 +65,4 @@
 </script>
 
 <style scoped>
-th {
-    font-weight: bold;
-}
-
-th, td {
-    padding-left: .5rem;
-    padding-right: .5rem;
-}
-
-.weather-component {
-    text-align: center;
-}
-
-table {
-    margin-left: auto;
-    margin-right: auto;
-}
 </style>

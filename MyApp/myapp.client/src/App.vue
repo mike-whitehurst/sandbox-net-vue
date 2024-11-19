@@ -1,13 +1,14 @@
-<script setup>
-import HelloWorld from './components/HelloWorld.vue'
-</script>
-
 <template>
- 
-      <HelloWorld msg="You did it!" />
-
+  <nav>
+    <RouterLink to="/">Home</RouterLink> | <RouterLink to="/weather">Weather</RouterLink> | <strong>Current route path:</strong> {{ $route.fullPath }}
+  </nav>
+  <main>
+    <RouterView />
+  </main>
 </template>
 
-<style scoped>
+<script lang="js">
+</script>
 
+<style scoped>
 </style>
