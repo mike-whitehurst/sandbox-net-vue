@@ -31,9 +31,7 @@
 </template>
 
 <script lang="js">
-  import { defineComponent } from 'vue';
-
-  export default defineComponent({
+  export default {
     data() {
       return {
         loading: false,
@@ -61,7 +59,7 @@
         }
       }
     },
-  });
+  };
 </script>
 
 <style scoped>

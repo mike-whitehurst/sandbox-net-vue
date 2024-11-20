@@ -1,6 +1,6 @@
 <template>
   <nav>
-    <b>NAV:</b> <RouterLink to="/">Home</RouterLink> | <RouterLink to="/weather">Weather</RouterLink> | <RouterLink to="/form">Form</RouterLink>
+    <b>NAV:</b> <RouterLink to="/">Home</RouterLink> | <RouterLink to="/weather">Weather</RouterLink> | <RouterLink to="/form">Form</RouterLink> | <RouterLink to="/composition">Composition</RouterLink>
   </nav>
   <hr />
   <main>
