@@ -7,10 +7,12 @@ import { createMemoryHistory, createRouter } from 'vue-router'
 
 import HomeView from './components/HomeView.vue'
 import WeatherView from './components/WeatherView.vue'
+import FormView from './components/FormView.vue'
 
 const routes = [
   { path: '/', component: HomeView },
   { path: '/weather', component: WeatherView },
+  { path: '/form', component: FormView },
 ]
 
 const router = createRouter({

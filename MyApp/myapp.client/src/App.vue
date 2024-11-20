@@ -1,9 +1,12 @@
 <template>
   <nav>
-    <RouterLink to="/">Home</RouterLink> | <RouterLink to="/weather">Weather</RouterLink> | <strong>Current route path:</strong> {{ $route.fullPath }}
+    <b>NAV:</b> <RouterLink to="/">Home</RouterLink> | <RouterLink to="/weather">Weather</RouterLink> | <RouterLink to="/form">Form</RouterLink>
   </nav>
+  <hr />
   <main>
     <RouterView />
+    <hr />
+    <strong>Current route path:</strong> {{ $route.fullPath }}
   </main>
 </template>
 
